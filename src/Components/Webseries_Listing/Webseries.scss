@@ -1,0 +1,17 @@
+@import "../../General_or_Common/colors.scss";
+
+.webSeries-list{
+  margin: 20px 10px;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+.webSeries-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 5px;
+}
